@@ -1,0 +1,17 @@
+class  p1
+{
+	public static void  print(char n){
+		if(n>='a' && n<= 'z' || n>='A' && n<= 'Z'){
+			System.out.println(n); 
+			print(++n);
+			}
+			
+	}
+	public static void main(String[] args) 
+	{
+		print('a');		
+		print('A');
+		print('@');
+		System.out.println("Hello World!");
+	}
+}

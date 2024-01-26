@@ -1,0 +1,20 @@
+class narrow 
+{
+	//narrowing with help of type cast operator
+	public static void main(String[] args) 
+	{
+		int a = 1234;
+		int e = 9876788;
+		short b = (short)a;
+		short f = (short)e;
+		byte c =(byte)a;
+		byte d =(byte)b;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println("Hello World!");
+	}
+}

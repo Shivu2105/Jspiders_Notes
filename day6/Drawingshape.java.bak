@@ -1,0 +1,23 @@
+class Drawingshape
+{ 
+	public static void draw(){
+		System.out.println("Drawing a generic shape!");
+	}
+	public static void draw(String str){
+		System.out.println("Drawing a shape with Color:  " + str );
+	}
+	public static void draw(int a){
+		System.out.println("Drawing a shape with " +a+  "sides,");
+	}
+	public static void draw(String str, int a){
+		System.out.println("Drawing a shape with Color " +Blue+ " And " +a+ " sides.");
+	}
+	public static void main(String[] args) 
+	{
+		draw();
+		draw(5);
+		draw("Red");
+		draw("Blue",5);
+		System.out.println("Hello World!");
+	}
+}

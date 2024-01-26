@@ -1,0 +1,35 @@
+Design a DrawingShape class which consists
+
+draw Method:
+
+Behavior. Prints a message indicating that a generic shape is being drawn.
+
+draw Method with Color.
+
+Behavior. Prints a message indicating that a shape with a specified color is being drawn.
+
+draw Method with number of Sides:
+
+Behavior: Prints a message indicating that a shape with a specified number of sides is being drawn.
+
+draw Method with Color and Sides:
+
+Behavior: Prints a message indicating that a shape with a specified color and number of sides is being drawn.
+
+main Method:
+
+Behavior: The main method serves as the entry point of the program.
+
+It demonstrates the usage of the various draw methods by calling them with different sets of parameters.
+
+Example Output
+
+When you run the provided main method, you'll get output similar to the following:
+
+Drawing a generic shape!
+
+Drawing a shape with Color: Red
+
+Drawing a shape with 4 sides,
+
+Drawing a shape with Color Blue And 3 sides.

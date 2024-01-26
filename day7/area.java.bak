@@ -1,0 +1,16 @@
+class print 
+{
+	public static double area(double a){
+		return  a*a;
+	}
+	public static double area (double l, double b){
+		return l*b;
+	}
+	public static void main(String[] args) 
+	{
+		int square = area(4D);
+		int rectangle = area(4D,5D); 
+		System.out.println(square);
+		System.out.println(rectangle);
+	}
+}

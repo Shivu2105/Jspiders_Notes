@@ -1,0 +1,21 @@
+class PrintNumber
+{
+	public static int printn(int a){
+		return a;
+	}
+	public static double printn(double a){
+		return a;
+	}
+	public static float printn(float a){
+		return a;
+	}
+	public static long printn(long a){
+		return a;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println(printn(5));
+		System.out.println(printn(5D));
+		System.out.println(printn(5F));
+	}
+}

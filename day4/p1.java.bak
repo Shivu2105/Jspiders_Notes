@@ -1,0 +1,14 @@
+class  p1
+{
+	public static void  print(char n){
+		if(n<= 'z'){
+			System.out.println(n);
+			print(++n);
+			}
+	}
+	public static void main(String[] args) 
+	{
+		print('a');
+		System.out.println("Hello World!");
+	}
+}
