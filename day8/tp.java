@@ -7,8 +7,13 @@ class tp
 		System.out.println(6==6 || 7<4);
 		System.out.println(6==6 && 7>4);
 
+	// ternanry operator
 		int a = 8;
 		int b = 11;
 		System.out.println( a>b ? "Bye baby" : "No baby let it be");
+
+		// logical not
+
+		System.out.print(!(70 == 71));
 	}
 }
